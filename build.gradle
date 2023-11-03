@@ -20,7 +20,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-jar {
+bootJar {
     archiveFileName = 'echo-server.jar'
     //destinationDirectory = file('C:\\Users\\11205004\\Desktop')
 }
