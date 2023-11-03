@@ -20,6 +20,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+jar {
+    archiveFileName = 'echo-server.jar'
+    //destinationDirectory = file('C:\\Users\\11205004\\Desktop')
 }
